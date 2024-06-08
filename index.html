@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind project 3</title>
+    <link rel="icon" href="./images/logo.svg" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="fixed -top-2 right-0 -left-8 w-full h-16 backdrop-blur-md   flex items-center justify-between ml-10 mr-10 mt-2">
+      <img class="h-10" src="./images/logo.svg" alt="logo" />
+      <nav class="">
+        <ul class="hidden sm:flex gap-10 border-2 px-3 py-1.5 rounded-full bg-slate-200 ">
+          <li>
+            <a href="#">Intro</a>
+          </li>
+          <li>
+            <a href="#">Prices</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="text-sm mr-10 py-1.5 px-2 rounded-full bg-emerald-950 text-white"
+      >
+        Join Community
+      </button>
+    </div>
+
+    <!-- _____________________centre-part______________________ -->
+    <div class="sm:flex flex-row flex-wrap ml-20">
+      <!--____________ LEFT SIDE ___________________-->
+      <div class="mt-48">
+        <h1 class="text-7xl -ml-10 sm:text-8xl font-semibold text-lime-500">ATTEND LIVE</h1>
+        <h1 class="text-6xl -ml-10 sm:text-8xl font-semibold">
+          CLASSES EVERY <br />
+          WEEK
+        </h1>
+        <h1 class="-ml-10 sm:leading-5 gap-7 text-slate-500">
+          Join founders, freelancers, designers, FAANG engineers, indie hackers,
+          and <br />
+          nore in our 24/7WhatsApp Group for less than a cup of coffee
+        </h1>
+
+        <button class="-ml-14 sm:w-80 mt-10 sm:mt-5 mb-4 bg-lime-400 px-5 py-1.5 rounded-full">
+          Join 24/7WhatsApp+discord for $5/month
+        </button>
+      </div>
+      
+      <!-- ________________RIGHT SIDE_______________ -->
+      <div class="flex -ml-16 mr-5 sm:flex justify-center sm:ml-20 border-2 mt-48">
+        <img class="h-109 w-96" src="images/main-hero.png" alt="">
+      </div>
+    </div>
+
+    <div class="sm:flex justify-around mt-40">
+        <ul class="flex flex-wrap justify-center gap-8">
+            <li class="flex text-center gap-2">
+                <img src="./images/icon-guides.svg" alt="Guides" />
+                <h1>5+ Guides for free</h1>
+            </li>
+            <li class="flex text-center gap-2" >
+                <img src="./images/icon-courses.svg" alt="Guides" />
+                <h1>Exclusive Courses & Projects</h1>
+            </li>
+            <li class="flex text-center gap-2">
+                <img src="./images/icon-whatsapp.svg" alt="Guides" />
+                <h1>24/7WhatsApp Support Group</h1>
+            </li>
+            <li class="flex text-center gap-2">
+                <img src="./images/icon-sessions.svg" alt="Guides" />
+                <h1>1:1Free Session</h1>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ___________________Mentors____________________ -->
+
+    <div class="flex items-center justify-around mt-48">
+
+        <ul class="flex flex-wrap justify-around gap-5 ">
+            <li class="flex flex-col items-center text-center py-2">
+                <img class="h-24 w-24 rounded-full" src="./images/avatars/avatar-aryan.webp" alt="Aryan">
+                <h1>""This community has been a game changer for <br> my career. The exclusive coursed and  <br> personalized guidance from expert mentors <br>have helped me take my coding skills to the <br> next level"
+                  
+                  <h1 class="font-medium mt-5">Aryan Singh</h1>
+                  <h1>SWE at Google</h1>
+
+                  <!-- __________INLINE STARS______ -->
+                  <div class="flex space-x-1 mt-2">
+                  <img src="./images/icon-star.svg" alt="">
+                  <img src="./images/icon-star.svg" alt="">
+                  <img src="./images/icon-star.svg" alt="">
+                  <img src="./images/icon-star.svg" alt="">
+                  <img src="./images/icon-star.svg" alt="">
+                 </div>
+            </li>
+            <li class="flex flex-col items-center text-center py-2">
+                  <img class="h-24 w-24 rounded-full" src="./images/avatars/avatar-kevin.webp" alt="Kelvin">
+                  <h1>""This community has been a game changer for <br> my career. The exclusive coursed and  <br> personalized guidance from expert mentors <br>have helped me take my coding skills to the <br> next level"
+                  
+                    <h1 class="font-medium mt-5">Kevin Smith</h1>
+                    <h1>SWE at Tesla</h1>
+                  </h1>
+                  <!-- __________INLINE STARS______ -->
+                  <div class="flex space-x-1 mt-2">
+                    <img src="./images/icon-star.svg" alt="">
+                    <img src="./images/icon-star.svg" alt="">
+                    <img src="./images/icon-star.svg" alt="">
+                    <img src="./images/icon-star.svg" alt="">
+                    <img src="./images/icon-star.svg" alt="">
+                   </div>
+            </li>
+            <li class="flex flex-col items-center text-center py-2">
+                <img class="h-24 w-24 rounded-full" src="./images/avatars/avatar-umang.webp" alt="Umang">
+              <h1>""This community has been a game changer for <br> my career. The exclusive coursed and  <br> personalized guidance from expert mentors <br>have helped me take my coding skills to the <br> next level"
+                    
+                <h1 class="font-medium mt-5">Umang Chaudhary</h1>
+                <h1>SWE at Tiktok</h1>
+              </h1>
+              <!-- __________INLINE STARS______ -->
+              <div class="flex space-x-1 mt-2">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+               </div>
+            </li>
+        </ul>
+
+        </div>
+      <!-- ______________________SIMPLE PRICING________ -->
+    <div class="flex flex-wrap sm:flex flex-col items-center justify-center mt-48 mb-48">
+<h1 class="flex flex-wrap ml-4 text-5xl font-bold">SIMPLE NO-TRICK PRICING</h1>
+      <p class="mt-4 ml-5">Everything you need to grow 10x for less than a coffee</p>  
+     
+        <!-- <div class=" justify-between text-sm  sm:flex flex-col border-1 h-86 w-2/4 rounded-xl mt-20 shadow-xl "> -->
+          <!-- _________left side________  -->
+          <!-- <div class=" w-5/4 pt-7 px-4 text-wrap text-start text-slate-600">
+          <p>Premium Elite Subscription</p>
+
+          <p>Join founders, freelancers, designers, FAANG engineers, indie hackers, and more in our 24/7WhatsApp Group for less than a cup of coffee</p>
+      </div> -->
+
+      <!-- ____________RIGHT SIDE___________ -->
+          <!-- <div class="flex flex-wrap min-h-80 sm:flex flex-col text-center p-10 bg-slate-100 rounded-xl rounded-l-none w-2/4">
+            <p>Less than  cup of coffee</p>
+            <p class="text-3xl font-bold">$5 $1000</p>
+
+            <button class="border-2 mt-3 rounded-full px-3 py-2 bg-lime-400">Join Community</button>
+          </div>
+        </div> 
+ </div>-->
+<!-- ___________________EVERYTHING YOU NEEDED HERE_______ -->
+    <div class="mt-40 flex flex-col justify-center text-center">
+      <p class=" text-4xl font-bold text-wrap sm:text-6xl">
+        EVERY THING YOU NEED IN <br> ONE Community  
+      </p>
+      <p class="mt-5 text-slate-500">Unleasing your degital potential for lasting success</p>
+    </div>
+<!-- _____________MENTORS______________ -->
+    <div class="mt-40">
+      <ul class="flex flex-wrap text-center gap-10">
+        <li>
+          <img class="hover:-translate-y-5" src="./images/illustration-mentors.svg" alt="mentors">
+          <h1 class="text-2xl font-bold">EXPERT MENTORS</h1>
+          <p class="mt-4 text-slate-700">Get personalized guidance from expert <br> mentors to take your coding skills to <br>the next level</p>
+        </li>
+        <li>
+          <img class="hover:-translate-y-5" src="./images/illustration-networking.svg" alt="Networking">
+          <h1 class="text-2xl font-bold">NETWORKING</h1>
+          <p class="mt-4 text-slate-700">Connect with like-mindes coders from <br> around the world and collaborate on <br>exciting projects</p>
+        </li>
+        <li>
+          <img class="hover:-translate-y-5" src="./images/illustration-courses.svg" alt="">
+          <h1 class="text-2xl font-bold">COURSES</h1>
+          <p class="mt-4 text-slate-700">Exclusive courses in Full Stack, AI, <br> Blockchain, and more to help to stay <br> ahead of the curve</p>
+        </li>
+      </ul>
+    </div>
+
+<!-- __________________________COMPANIES NAMES_____________ -->
+    <div class="mt-40">
+        <ul class="flex">
+          <li>
+            <img class="hover:translate-y-1" src="./images/company-logos/adobe.svg" alt="">
+          </li>
+          <li>
+            <img class="hover:translate-y-1"  src="./images/company-logos/airbnb.svg" alt="">
+          </li>
+          <li>
+            <img class="hover:translate-y-1"  src="./images/company-logos/dropbox.svg" alt="">
+          </li>
+          <li>
+            <img class="hover:translate-y-1"  src="./images/company-logos/figma.svg" alt="">
+          </li>
+          <li>
+            <img class="hover:translate-y-1"  src="./images/company-logos/framer.svg" alt="">
+          </li>
+          <li>
+            <img class="hover:translate-y-1"  src="./images/company-logos/google.svg" alt="">
+          </li>
+        </ul>
+    </div>
+
+<!-- _________________________Last-Part___________________ -->
+
+<div class="mt-32 flex flex-wrap">
+  <!-- _____________left____________ -->
+   <div>
+    <h1 class="text-5xl font-bold">GAIN A COMPETITIVE <br> EDGE IN JOB MARKET</h1>
+    <p class="mt-5 text-slate-600">Join founders, freelancers, designers, FAANG <br> engineers, indie hackers, and more in our 24/7 <br> WhatsApp Group for less than a cup of coffee.
+    </p>
+
+    <h1 class="text-lime-400 text-1xl font-bold">what you'll get</h1>
+
+    <div class="mt-5">
+      <ul>
+        <li class="flex items-center gap-3 mb-3">
+          <img src="images/icon-courses.svg" alt="">
+          <p> Comprehensive guides, projects, & courses</p>
+        </li>
+        <li class="flex items-center gap-3 mb-3">
+          <img src="images/icon-job.svg" alt="">
+          <p>Exclusive job + internship postings</p>
+        </li>
+        <li class="flex items-center gap-3 mb-3">
+          <img src="./images/icon-sessions.svg" alt="">
+          <p>1:1 Career guidance & mentorship</p>
+        </li>
+      </ul>
+    </div>
+
+   </div>
+
+   <!-- ____________right___________ -->
+    <div>
+      <img class="hover:-rotate-3" src="./images/illustration-job.svg" alt="">
+    </div>
+</div>
+
+<!-- _________________Footer________________ -->
+
+<div class="mt-40 text-center sm:flex items-center justify-center gap-64">
+  <div class="text-black font-semibold mb-5 flex text-center">
+    <p>2024©DSA revision</p>
+  </div>
+  <div class="flex text-center gap-3">
+    <img class="w-5 h-5" src="./images/icon-twitter.svg" alt="">
+    <img class="w-5 h-5" src="./images/icon-instagram.svg" alt="">
+    <img class="w-5 h-5" src="./images/icon-youtube.svg" alt="">
+    <img class="w-5 h-5" src="./images/icon-whatsapp.svg" alt="">
+  </div>
+</div>
+
+  </body>
+</html>
